@@ -12,15 +12,69 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ambient_display_title">Pantalla ambiental</string>
+
+    <string name="doze_trigger_title">Cuando mostrar</string>
+    <string name="doze_elements_title">Que mostrar</string>
+    <string name="gestures_title">Gestos</string>
+    <string name="brightness_title">Brillo</string>
+
+    <!-- Switch On/Off  -->
+    <string name="switch_on_text">Encendido</string>
+    <string name="switch_off_text">Apagado</string>
+
     <!-- Battery percentage -->
+    <string name="ambient_battery_percent_title">Nivel de bateria</string> 
+    <string name="ambient_battery_percent_summary">Muestra el porcentaje de batería en la parte inferior de la pantalla.</string>
+
     <!-- Always on display -->
+    <string name="aod_setting_title">Siempre encendido</string>
+    <string name="aod_setting_summary">Mostrar la hora, los iconos de notificación y otra información</string>
+    <string name="doze_always_on_text">Siempre en pantalla le permite verificar la hora, los íconos de notificación y otra información cuando el dispositivo está bloqueado. Aumenta el uso de la batería.</string>
+
     <!-- Always on while charging -->
+    <string name="doze_on_charge_title">Siempre encendido (mientras se carga)</string>
+    <string name="doze_on_charge_summary">Mostrar siempre la pantalla ambiental mientras el dispositivo se está cargando</string>
+
     <!-- Ambient display -->
+    <string name="ambient_display_notifications">Notificaciones nuevas</string>
+    <string name="ambient_display_summary">Activar la pantalla cuando reciba notificaciones</string>
+
     <!-- Ambient music ticker -->
+    <string name="pulse_on_new_tracks_title">Ticker de música</string>
+    <string name="pulse_on_new_tracks_summary">Activar la pantalla cuando se reproduce una nueva pista de música</string>
+
     <!-- Tilt sensor -->
+    <string name="pick_up_title">Recoger</string>
+    <string name="pick_up_summary">Levante su teléfono para verificar la hora, los íconos de notificación y otra información</string>
+    <string name="wake_gesture_title">Levantar para despertar</string>
+    <string name="wake_gesture_summary">Levante su teléfono para activar el dispositivo en lugar de notificaciones pulsantes</string>
+
     <!-- Proximity sensor -->
+    <string name="hand_wave_gesture_title">Onda de mano</string>
+    <string name="hand_wave_gesture_summary">Mueva la mano sobre su teléfono para verificar la hora, los íconos de notificación y otra información</string>
     <string name="pocket_gesture_title">Bolsillo</string>
+    <string name="pocket_gesture_summary">Saque su teléfono del bolsillo para verificar la hora, los íconos de notificación y otra información</string>
+
     <!-- Double tap -->
+    <string name="doze_double_tap_title">Doble toque</string>
+    <string name="doze_double_tap_summary">Presiona dos veces tu teléfono para verificar la hora, los íconos de notificación y otra información</string>
+
     <!-- Brightness -->
-    <string name="ambient_pulse_brightness_title">Pantalla ambiente</string>
+    <string name="doze_brightness_force_title">Forzar valores de brillo</string>
+    <string name="doze_brightness_force_summary">Utilice valores de brillo personalizados en lugar del brillo de la pantalla</string>
+    <string name="ambient_pulse_brightness_title">Pantalla ambiental</string>
+    <string name="ambient_doze_brightness_title">Siempre a la vista</string>
+
+    <!-- AOD Schedule -->
+    <string name="always_on_display_schedule_title">Programar</string>
+    <string name="always_on_display_schedule_sunset">Puesta de sol</string>
+    <string name="always_on_display_schedule_sunrise">Amanecer</string>
+    <string name="always_on_display_schedule_none">Ninguno</string>
+    <string name="always_on_display_schedule_twilight">Se enciende desde el atardecer hasta el amanecer</string>
+    <string name="always_on_display_schedule_mixed_sunset">Se enciende desde el atardecer hasta una hora personalizada</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Se enciende desde una hora personalizada hasta el amanecer.</string>
+    <string name="always_on_display_schedule_custom">Se enciende a la hora personalizada</string>
+    <string name="always_on_display_start_time_title">Hora de inicio</string>
+    <string name="always_on_display_end_time_title">Hora de finalización</string>
 </resources>
