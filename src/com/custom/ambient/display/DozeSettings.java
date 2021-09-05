@@ -28,10 +28,10 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceFragment;
 import androidx.preference.SwitchPreference;
 
-import com.nusantara.support.preferences.SecureSettingMasterSwitchPreference;
-import com.nusantara.support.preferences.SecureSettingSwitchPreference;
-import com.nusantara.support.preferences.SystemSettingSeekBarPreference;
-import com.nusantara.support.preferences.SystemSettingSwitchPreference;
+import com.oneos.support.preferences.SecureSettingMasterSwitchPreference;
+import com.oneos.support.preferences.SecureSettingSwitchPreference;
+import com.oneos.support.preferences.SystemSettingSeekBarPreference;
+import com.oneos.support.preferences.SystemSettingSwitchPreference;
 
 public class DozeSettings extends PreferenceActivity implements PreferenceFragment.OnPreferenceStartFragmentCallback {
 
